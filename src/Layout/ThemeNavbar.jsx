@@ -50,7 +50,7 @@ const ThemeNavbar = () => {
             </li>
             <li>
                 <NavLink
-                    to="/pricing"
+                    to="/product"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
                 >
                     Product

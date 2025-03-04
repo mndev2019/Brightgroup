@@ -7,7 +7,9 @@ bg-[var(--primary)] */
 
 body {
     font-family: "Open Sans", sans-serif;
+
 }
+
 
 .container {
     max-width: 100% !important;
@@ -52,8 +54,10 @@ body {
 }
 @media(max-width:768px){
     .title2::before {
-        top: 65px;
-        left:49%;
+        top: 70px;
+        left: 49%;
+        height: 10px;
+        width: 10px;
 
     }
 }
@@ -61,7 +65,9 @@ body {
 
 @media(max-width:768px){
     .title::before {
-        top: 40px;
+        top: 37px;
+        height: 10px;
+        width: 10px;
 
     }
 }

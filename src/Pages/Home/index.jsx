@@ -6,15 +6,15 @@ import ReviewInsta from '../../Component/ReviewInsta'
 import Actionbox from './Actionbox'
 
 const Home = () => {
-  return (
-    <>
-      <Banner />
-      <About />
-      <Categories />
-      <Actionbox />
-      <ReviewInsta />
-    </>
-  )
+    return (
+        <>
+          <Banner/>
+          <About/>
+          <Categories/>
+          <Actionbox/>
+          <ReviewInsta/>
+        </>
+    )
 }
 
 export default Home
