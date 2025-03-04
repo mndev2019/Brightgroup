@@ -60,7 +60,7 @@ const About = () => {
                                 <>
                                     <div className="col-span-1" data-aos="fade-up"
                                         data-aos-duration="2000">
-                                        <div className="w-full bg-white p-8 rounded-[10px] relative overflow-hidden shadow-md shadow-[#e87e006b] transition-all duration-300">
+                                        <div className="w-full h-full bg-white p-8 rounded-[10px] relative overflow-hidden shadow-md shadow-[#e87e006b] transition-all duration-300">
                                             <div className="icon h-[60px] w-[60px] rounded-[50%] mb-[20px] flex justify-center items-center" style={{ backgroundColor: "color-mix(in srgb, #e87e00, transparent 90%)" }}
                                             >
                                                 <img src={itm.image} alt='image' className='h-[40px]' />
