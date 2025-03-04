@@ -13,11 +13,11 @@ const About = () => {
             title: "Nature of Business",
             para: "Manufacturer"
         },
-        {
-            image: nature,
-            title: "Total Number of Employees",
-            para: "11 to 25 People"
-        },
+        // {
+        //     image: nature,
+        //     title: "Total Number of Employees",
+        //     para: "11 to 25 People"
+        // },
         {
             image: nature,
             title: "GST Registration Date",
