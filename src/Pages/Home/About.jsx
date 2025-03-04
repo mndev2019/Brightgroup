@@ -50,8 +50,8 @@ const About = () => {
                 <div className="container">
                     <div className="grid grid-cols-1">
                         <div className="col-span-1 text-center">
-                            <Heading title="About Bright Environmental Solutions Private Limited" />
-
+                            {/* <Heading title="About Bright Environmental Solutions Private Limited" /> */}
+                            <h3 className='title2 md:text-[30px] text-[17px]  font-[600] border-b-2 border-[#FF914D] inline-block relative py-3'>About Bright Environmental Solutions Private Limited</h3>
                         </div>
                     </div>
                     <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 pt-10 justify-center">
@@ -65,8 +65,8 @@ const About = () => {
                                             >
                                                 <img src={itm.image} alt='image' className='h-[40px]' />
                                             </div>
-                                            <h3 className='text-[20px] font-[600] mb-[5px]'>{itm.title}</h3>
-                                            <p className='text-[15px]'>
+                                            <h3 className='md:text-[20px] text-[15px] font-[600] md:mb-[5px] mb-[2px]'>{itm.title}</h3>
+                                            <p className='md:text-[15px] text-[12px]'>
                                                 {itm.para}
                                             </p>
                                         </div>
