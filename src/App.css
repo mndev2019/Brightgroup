@@ -38,7 +38,19 @@ body {
     position: absolute;
     top: 60px;
     z-index: 99;
-    left: 50%;
+    left: 48%;
+}
+
+@media (min-width:646px) and (max-width:768px) {
+    .title::before {
+        top: 43px;
+    }
+}
+@media(max-width:646px){
+    .title::before {
+        top: 34px;
+        
+    }
 }
 
 /*banner */
@@ -99,5 +111,5 @@ body {
     /* background-position:top center; */
     background-size: cover;
     background-attachment: fixed;
-    height: 400px;
+
 }

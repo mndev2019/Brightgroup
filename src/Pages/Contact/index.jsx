@@ -12,8 +12,8 @@ const Contact = () => {
                             <Heading title="Contact Us" />
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 pt-10 gap-4">
-                        <div className="col-span-2">
+                    <div className="grid lg:grid-cols-4 grid-cols-1 pt-10 gap-4">
+                        <div className="lg:col-span-2 col-span-1">
                             <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-4 justify-items-center">
                                 <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex">
                                     <IoLocationOutline className='text-[#e87e00] text-[30px]' />
@@ -52,7 +52,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-4 pt-5">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-5">
                         <div className="col-span-1">
                             <div className="w-full h-full">
                                 <iframe
@@ -81,7 +81,7 @@ const Contact = () => {
                                     class="w-full p-3 mt-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#e87e00]"
                                 ></textarea>
                                 <button
-                                    class="mt-6 px-6 py-3 bg-[#e87e00] text-white rounded-full  transition"
+                                    class="mt-6 lg:px-6 px-3 lg:py-3 py-2 bg-[#e87e00] text-white rounded-full  transition"
                                 >
                                     Send Message
                                 </button>

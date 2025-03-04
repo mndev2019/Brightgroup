@@ -5,29 +5,29 @@ import linkdin from '../../assets/Image/linkedin.png'
 const Actionbox = () => {
     return (
         <>
-            <section className='actionbox relative flex items-center justify-center'>
+            <section className='actionbox relative flex items-center justify-center lg:h-[400px] h-[300px]'>
                 <div className="absolute inset-0 bg-[#e87e004d] bg-opacity-50"></div>
                 <div className="container relative z-10">
                     <div className="grid grid-cols-1">
                         <div className="col-span-1">
                             <div className="w-full text-center">
-                                <h3 className='text-white text-[25px] font-[600] py-4'>
+                                <h3 className='text-white md:text-[25px] text-[18px] font-[600] md:py-4 py-2'>
                                     Pritpal Bright (CEO)
                                 </h3>
-                                <p className='text-white text-[24px] font-[300]'>
+                                <p className='text-white md:text-[24px] sm:text-[17px] text-[14px] font-[300]'>
                                     Bright Environmental Solutions Private Limited
                                     <span className='block'> 1, Nivan, Plot No.96, S.V. Road, Khar West, Mumbai - 400052, Maharashtra, India</span>
                                 </p>
                                 <div className="flex items-center justify-center pt-4">
                                     <div>
-                                        <p className='text-white text-[24px] font-[600] me-2'>
+                                        <p className='text-white md:text-[24px] text-[18px] font-[600] me-2'>
                                             Share Us :
                                         </p>
                                     </div>
                                     <div className="icon flex gap-2">
-                                        <img src={twitter} alt='twitter' className='h-[30px]' />
-                                        <img src={facebook} alt='facebook' className='h-[30px]' />
-                                        <img src={linkdin} alt='linkdin' className='h-[33px]' />
+                                        <img src={twitter} alt='twitter' className='md:h-[30px] h-[25px]' />
+                                        <img src={facebook} alt='facebook' className='md:h-[30px] h-[25px]' />
+                                        <img src={linkdin} alt='linkdin' className='md:h-[30px] h-[25px]' />
                                     </div>
                                 </div>
                             </div>

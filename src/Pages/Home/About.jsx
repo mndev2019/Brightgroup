@@ -54,7 +54,7 @@ const About = () => {
 
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 gap-4 pt-10 justify-center">
+                    <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 pt-10 justify-center">
                         {
                             data.map((itm) => (
                                 <>
@@ -76,15 +76,15 @@ const About = () => {
                         }
 
                     </div>
-                    <div className="grid grid-cols-2 pt-20 gap-8 items-center">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 pt-20 gap-8 items-center">
 
                         <div className="col-span-1"data-aos="flip-left" data-aos-duration="1000">
                             <img src={about} alt='image' className='rounded-[10px] border-l-4 border-[#e87e00]' />
                         </div>
                         <div className="cols-span-1" data-aos="fade-left" data-aos-duration="2000">
                             <div className="w-full">
-                                <h3 className=' text-[30px] font-[600]'>About Us</h3>
-                                <p className='text-[18px] font-[400] py-3'>
+                                <h3 className=' md:text-[30px] text-[20px] font-[600]'>About Us</h3>
+                                <p className='md:text-[18px] text-[15px] font-[400] py-3'>
                                     <span className='font-[600] textorange'>Bright Environment Solution Pvt Ltd</span> was established in year of <span className='font-[600] textorange'>2010</span>. We are leading manufacturers and wholesaler of high quality <span className='font-[600] textorange'>Pyrolysis oil, Diesel Oil, etc</span>. Our range is widely acclaimed for neck-deep first-class features like quality, efficiency and durability. All the products we offer conform to international quality standards and accomplish the complete demand of customers. Our products find usage in various industrial applications and gives efficient performance by reducing the down time of boilers and furnances occurring due to other low quality oils. Our oil is a direct substitute to LDO and industrial diesel, at a lesser rate.
                                 </p>
                                 <div className='pt-4'>

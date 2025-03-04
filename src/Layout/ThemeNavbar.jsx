@@ -75,18 +75,18 @@ const ThemeNavbar = () => {
 
     return (
         <>
-            <section className='py-3 px-20'>
+            <section className='py-3 lg:px-20 md:px-10 px-5'>
                 <div className=" mx-auto">
                     <div className="flex justify-between items-center">
                         {/* Logo */}
                         <NavLink to='/'>
-                            <div className="flex items-center gap-3">
-                                <img src={logo} alt='Logo' className='h-[80px]' />
+                            <div className="flex items-center md:gap-3 gap-1">
+                                <img src={logo} alt='Logo' className='md:h-[80px] h-[50px]' />
                                 <div className="icon">
-                                    <p className='text-[25px] uppercase' style={{ textShadow: '2px 2px #ccc' }}>
+                                    <p className='md:text-[16px] text-[9px] uppercase font-[600]' style={{ textShadow: '2px 2px #ccc' }}>
                                         Bright Environmental Solutions Private Limited
                                     </p>
-                                    <p className='text-[15px] text-[#676767]'>
+                                    <p className='md:text-[15px] text-[9px] text-[#676767]'>
                                         Khar West, Mumbai, Maharashtra
                                     </p>
                                 </div>
