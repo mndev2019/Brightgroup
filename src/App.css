@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel+Decorative:wght@400;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mr+Dafoe&family=Nunito+Sans:opsz,wght@6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+/* :root{
+    --primary : "#e87e00",
+    
+}
+bg-[var(--primary)] */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0 7rem;
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 100% !important;
+        padding: 0 2rem;
+    }
+}
+
+.textorange {
+    color: #e87e00;
+}
+
+.bgorange {
+    background-color: #e87e00;
+}
+
+
+.title::before {
+    content: "";
+    height: 18px;
+    width: 18px;
+    background-color: #e87e00;
+    position: absolute;
+    top: 60px;
+    z-index: 99;
+    left: 50%;
+}
+
+/*banner */
+.banner {
+    background: url('./assets/Image/banner.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sweep-to-bottom {
+    position: relative;
+    transform: translateZ(0);
+    transition: color 1000ms;
+}
+
+.sweep-to-bottom:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e87e00;
+    color: white;
+    transform: scaleY(0);
+    transform-origin: 50% 0%;
+    transition: transform 300ms ease-out;
+}
+
+.sweep-to-bottom:hover:before {
+    transform: scaleY(1);
+}
+
+.sweep-to-bottom:hover h1,
+.sweep-to-bottom:hover p {
+    color: white;
+}
+
+.sweep-to-bottom {
+    position: relative;
+    overflow: hidden;
+}
+
+.sweep-to-bottom img {
+    transition: filter 300ms ease-out;
+}
+
+.sweep-to-bottom:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* actionbox */
+.actionbox {
+    background-image: url(/src/assets/Image/actionbox.jpg);
+    background-repeat: no-repeat;
+    /* background-position:top center; */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
