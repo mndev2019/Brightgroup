@@ -12,7 +12,7 @@ const Categories = () => {
     AOS.init();
     return (
         <>
-            <section className='py-10'>
+            <section className='lg:py-10 py-5'>
                 <div className="container">
                     <div className="grid grid-cols-1">
                         <div className="col-span-1 text-center">
