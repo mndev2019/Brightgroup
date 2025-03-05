@@ -51,7 +51,7 @@ const Categories = () => {
                                     </li>
                                 </ul>
                                 <div className='pt-4'>
-                                    <button className='bgorange text-white rounded-[5px] md:px-5 px-3 py-1' onClick={(e)=> navigate('/diesel')}>View More</button>
+                                    <button className='bgorange text-white rounded-[5px] md:px-5 px-3 py-1' onClick={()=> navigate('/diesel')}>View More</button>
                                 </div>
                             </div>
                         </div>

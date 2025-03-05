@@ -43,7 +43,7 @@ const ThemeNavbar = () => {
             </li>
             <li>
                 <NavLink
-                    to="/booking"
+                    to="/about"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
                 >
                     About Us

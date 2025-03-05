@@ -7,6 +7,8 @@ import Contact from './Pages/Contact'
 import Product from './Pages/Product'
 import Diesel from './Pages/Product/Diesel'
 
+import Abouts from './Pages/Abouts'
+
 function App() {
   const ThemeRoute = createBrowserRouter(
     createRoutesFromElements(
@@ -16,6 +18,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/product' element={<Product/>}/>
           <Route path='/diesel' element={<Diesel/>}/>
+          <Route path='/about' element={<Abouts/>}/>
         </Route>
 
       </>
