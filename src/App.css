@@ -132,3 +132,10 @@ body {
     background-attachment: fixed;
 
 }
+/* reviews */
+.eapps-widget-toolbar-panel{
+    display: none !important;
+}
+.eapps-widget-toolbar-panel-share-button{
+    display: none !important;
+}

@@ -4,6 +4,7 @@ import logo from '../assets/Image/logo.jpg';
 
 import { NavLink, useLocation } from 'react-router-dom';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
+import { FaCheckCircle } from 'react-icons/fa';
 
 
 const ThemeNavbar = () => {
@@ -86,9 +87,23 @@ const ThemeNavbar = () => {
                                     <p className='md:text-[16px] text-[9px] uppercase font-[600]' style={{ textShadow: '2px 2px #ccc' }}>
                                         Bright Environmental Solutions Private Limited
                                     </p>
-                                    <p className='md:text-[15px] text-[9px] text-[#676767]'>
-                                        Khar West, Mumbai, Maharashtra
-                                    </p>
+                                    <div className="flex items-center gap-2">
+                                        {/* Location */}
+                                        <p className="md:text-[15px] text-[7px] text-[#676767]">
+                                            Khar West, Mumbai, Maharashtra
+                                        </p>
+
+                                        {/* Divider */}
+                                        <span className="h-4 w-px bg-[#676767]"></span>
+
+                                        {/* GST Section */}
+                                        <div className="flex items-center gap-1">
+                                            <FaCheckCircle className="text-[#e87e00] lg:text-[15px] text-[10px]" />
+                                            <p className="md:text-[12px] text-[7px]  text-[#676767]">
+                                                GST No. <span className="font-bold">27AAECB4964F1ZM</span>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </NavLink>
@@ -104,7 +119,7 @@ const ThemeNavbar = () => {
                         {/* Sidebar icon for mobile */}
                         <div className="lg:hidden">
                             <button onClick={toggleMenu}>
-                                <MenuOutlined className="text-3xl" />
+                                <MenuOutlined className="md:text-3xl text-xl" />
                             </button>
                         </div>
 

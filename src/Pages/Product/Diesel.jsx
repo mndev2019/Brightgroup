@@ -20,10 +20,22 @@ const Diesel = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="grid lg:grid-cols-3 grid-cols-1 mt-4 items-center">
+                    <div className="grid lg:grid-cols-3 grid-cols-1 mt-4 items-center gap-10">
                         <div className="col-span-1">
-                            <div className="w-full h-full">
-                                <img src={dieselproduct} alt='image' className='h-full' />
+                            <div className="grid grid-cols-4 gap-4">
+                                {/* Thumbnails */}
+                                <div className="col-span-1 flex flex-col items-center gap-2 justify-center">
+                                    <img src={dieselproduct} alt='image' className='h-[60px] w-auto hover:border-1 border-[#e87e00]' />
+                                    <img src={dieselproduct} alt='image' className='h-[60px] w-auto hover:border-1 border-[#e87e00]' />
+                                    <img src={dieselproduct} alt='image' className='h-[60px] w-auto hover:border-1 border-[#e87e00]' />
+                                </div>
+
+                                {/* Main Image */}
+                                <div className="col-span-3">
+                                    <div className="w-full h-full">
+                                        <img src={dieselproduct} alt='image' className='h-full w-full object-contain' />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="lg:col-span-2 col-span-1 md:mt-0 mt-3">
