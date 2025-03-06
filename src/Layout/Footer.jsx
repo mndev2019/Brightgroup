@@ -25,12 +25,12 @@ const Footer = () => {
                 Our Company
               </h3>
               <ul className='*:text-white *:hover:text-[#e87e00] *:lg:text-[16px] text-[12px] lg:pt-4 pt-2 '>
-                <li className='pb-3'>
+                <li className='pb-3 cursor-pointer'>
                   About Us
                 </li>
-                <li className='pb-3'>Our Products</li>
-                <li className='pb-3'>Sitemap</li>
-                <li className='pb-3'>Contact Us</li>
+                <li className='pb-3 cursor-pointer'>Our Products</li>
+                <li className='pb-3 cursor-pointer'>Sitemap</li>
+                <li className='pb-3 cursor-pointer'>Contact Us</li>
               </ul>
             </div>
             <div className="col-span-1 lg:p-0 pt-3">
@@ -39,9 +39,9 @@ const Footer = () => {
               </h3>
               <ul className='*:text-white *:hover:text-[#e87e00] *:lg:text-[16px] text-[12px] lg:pt-4 pt-2 '>
 
-                <li className='pb-3'>Diesel Oil</li>
-                <li className='pb-3'>Pyrolysis Oil</li>
-                <li className='pb-3'>Carbon Black</li>
+                <li className='pb-3 cursor-pointer'>Diesel Oil</li>
+                <li className='pb-3 cursor-pointer'>Pyrolysis Oil</li>
+                <li className='pb-3 cursor-pointer'>Carbon Black</li>
               </ul>
             </div>
             <div className="col-span-1 lg:p-0 pt-3">
@@ -49,14 +49,14 @@ const Footer = () => {
                 Social Icons
               </h3>
               <div className='lg:pt-4 pt-2 flex gap-3'>
-                <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#e87e00] hover:bg-[#e0b076f2] items-center justify-center flex'>
-                  <FaTwitter className='text-white  md:text-[20px] text-[15px]' />
+                <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#e87e00] hover:bg-[#e0b076f2] items-center justify-center flex '>
+                  <FaTwitter className='text-white  md:text-[20px] text-[15px] cursor-pointer' />
                 </div>
                 <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#e87e00] hover:bg-[#e0b076f2] items-center justify-center flex'>
-                  <FaFacebookF className='text-white   md:text-[20px] text-[15px]' />
+                  <FaFacebookF className='text-white   md:text-[20px] text-[15px] cursor-pointer' />
                 </div>
                 <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#e87e00] hover:bg-[#e0b076f2] items-center justify-center flex'>
-                  <FaLinkedinIn className='text-white   md:text-[20px] text-[15px]' />
+                  <FaLinkedinIn className='text-white   md:text-[20px] text-[15px] cursor-pointer' />
                 </div>
               </div>
             </div>

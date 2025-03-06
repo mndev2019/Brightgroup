@@ -21,10 +21,10 @@ const ThemeNavbar = () => {
 
 
     useEffect(() => {
-        // Scroll to the bottom when the page changes
+       
         window.scrollTo({
             top: 0,
-            behavior: 'smooth', // Smooth scroll
+            behavior: 'smooth', 
         });
     }, [location]);
 
@@ -37,6 +37,7 @@ const ThemeNavbar = () => {
                 <NavLink
                     to="/"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Home
                 </NavLink>
@@ -45,6 +46,7 @@ const ThemeNavbar = () => {
                 <NavLink
                     to="/about"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
                 >
                     About Us
                 </NavLink>
@@ -53,6 +55,7 @@ const ThemeNavbar = () => {
                 <NavLink
                     to="/product"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Product
                 </NavLink>
@@ -61,6 +64,7 @@ const ThemeNavbar = () => {
                 <NavLink
                     to="/contact"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Contact Us
                 </NavLink>

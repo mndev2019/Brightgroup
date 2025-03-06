@@ -81,7 +81,7 @@ const Contact = () => {
                                     class="w-full p-3 mt-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#e87e00]"
                                 ></textarea>
                                 <button
-                                    class="mt-6 lg:px-6 px-3 lg:py-3 py-2 bg-[#e87e00] text-white rounded-full  transition"
+                                    class="mt-6 lg:px-6 px-3 lg:py-3 py-2 bg-[#e87e00] text-white rounded-full  transition cursor-pointer"
                                 >
                                     Send Message
                                 </button>

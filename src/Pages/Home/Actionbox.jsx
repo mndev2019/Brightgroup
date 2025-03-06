@@ -25,9 +25,9 @@ const Actionbox = () => {
                                         </p>
                                     </div>
                                     <div className="icon flex gap-2">
-                                        <img src={twitter} alt='twitter' className='md:h-[30px] h-[25px]' />
-                                        <img src={facebook} alt='facebook' className='md:h-[30px] h-[25px]' />
-                                        <img src={linkdin} alt='linkdin' className='md:h-[30px] h-[25px]' />
+                                        <img src={twitter} alt='twitter' className='md:h-[30px] h-[25px] cursor-pointer' />
+                                        <img src={facebook} alt='facebook' className='md:h-[30px] h-[25px] cursor-pointer' />
+                                        <img src={linkdin} alt='linkdin' className='md:h-[30px] h-[25px] cursor-pointer' />
                                     </div>
                                 </div>
                             </div>
