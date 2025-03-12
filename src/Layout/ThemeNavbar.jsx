@@ -21,12 +21,13 @@ const ThemeNavbar = () => {
 
 
     useEffect(() => {
-       
+
         window.scrollTo({
             top: 0,
-            behavior: 'smooth', 
+            behavior: 'smooth',
         });
     }, [location]);
+
 
 
 
@@ -44,11 +45,29 @@ const ThemeNavbar = () => {
             </li>
             <li>
                 <NavLink
-                    to="/about"
+                    to="/enviournment"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
                     onClick={() => setIsOpen(false)}
                 >
-                    About Us
+                    Environment
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
+                    to="/solution"
+                    className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
+                >
+                    Our Solution
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
+                    to="/process"
+                    className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
+                >
+                    Process
                 </NavLink>
             </li>
             <li>
@@ -57,16 +76,35 @@ const ThemeNavbar = () => {
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
                     onClick={() => setIsOpen(false)}
                 >
-                    Product
+                    Products
                 </NavLink>
             </li>
+            <li>
+                <NavLink
+                    to="/gallery"
+                    className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
+                >
+                    Gallery
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
+                    to="/about"
+                    className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
+                    onClick={() => setIsOpen(false)}
+                >
+                    About Us
+                </NavLink>
+            </li>
+
             <li>
                 <NavLink
                     to="/contact"
                     className={({ isActive }) => isActive ? "textorange" : "hover:text-secondary"}
                     onClick={() => setIsOpen(false)}
                 >
-                    Contact Us
+                    Contact
                 </NavLink>
             </li>
 
