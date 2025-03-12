@@ -14,7 +14,7 @@ const Banner = () => {
                     <div className="grid grid-cols-1">
                         <div className="col-span-1">
                             <div className="w-full">
-                                <p className="text-white text-[14px] sm:text-[16px] md:text-[18px] lg:text-[26px] font-[600] pb-4 text-center" data-aos="fade-down" data-aos-duration="2000">
+                                <p className="text-white text-[14px] sm:text-[16px] md:text-[18px] lg:text-[26px] font-[600] pb-4 text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
                                     Under the dynamic leadership of our Proprietor,<span className='textorange lg:text-[30px] md:[25px] text-[20px]'>“Mr.Pritpal Bright”</span> , we have achieved a reputed position in the industry. His constant levels of focus have enabled us to serve to gain such a huge client base all across the country.
                                 </p>
                             </div>
